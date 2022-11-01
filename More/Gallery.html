@@ -1,0 +1,138 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+    <title>Untitled Document</title>
+</head>
+
+<body style="margin:0;">
+<div id="container">
+
+   <header>
+   
+
+     <div id="logo">
+       <img src="../images/logo3.png" height="120px" width="300px" />
+	 </div>
+       <div id="name"><b>SAMSUNG MOBILE MALL</b></div>
+     <div id="button">  
+       <input type="text" name="name" value="" />
+       <input type="button" name="name" value="search"/>  
+     </div>
+	    
+		<nav>
+	      <ul id="a2">
+		  <li><a href="../Home.html" class="a1">Home</a>
+          <a href="About-us.html" class="a1">About-us</a> 
+          <a href="Gallery.html" class="a1">Gallery</a>  
+          <a href="Services.html" class="a1">Services</a> 
+          <a href="Contact-Us.html" class="a1">Contact-Us</a>
+		  <input type="button" value="login" class="a1"/></li>
+         		 
+      </nav>
+	  
+   </header>
+  <center> <div id="gallery">
+  
+  
+  
+   <img src="../images/images (12).jpg" class="gallery1">
+   <img src="../images/nm.jpg" class="gallery1">
+   <img src="../images/ph6.jpg" class="gallery1">
+   <img src="../images/ph8.jpg" class="gallery1">
+   <img src="../images/images (7).jpg" class="gallery1">
+   <img src="../images/mbls.jpg" class="gallery1">
+   <img src="../images/images (3).jpg" class="gallery1">
+   <img src="../images/ph.jpg" class="gallery1">
+   <img src="../images/ph1 (2).jpg" class="gallery1">
+
+
+	 </div> </center>
+	 
+<footer>
+ <nav>
+ <div id="footer">
+ <b>
+       <div class="foot"> 
+         <form name="abcd" onSubmit="return(abc());">
+           <table>
+             <tr>
+	           <td>Name:</td>
+               <td><input type="text" name="n1" value="" size="25"></td>
+	         </tr>
+             <tr>
+               <td>E-mail:</td>
+               <td><input type="text" name="e1" value="" size="25"></td>
+	         </tr>
+             <tr>
+                <td>Contact:</td>
+                <td><input type="text" name="c1" value="" size="25"></td>
+	         </tr>
+	         <tr>
+                 <td>Comment:</td>
+                 <td><textarea rows="5" cols="25"></textarea></td>
+	         </tr>
+             <tr>
+                  <td><input type="submit" name="n" value="submit"/></td>
+	         </tr>
+           </table>
+         </form>
+       </div>
+       <div class="foot">
+		<ul type="square">
+          <li> <a href="../Home.html">Home</a></li>
+          <li><a href="About-us.html">About-us</a></li> 
+          <li><a href="Gallery.html">Gallery</a></li>  
+          <li><a href="Services.html">Services</a> </li>
+          <li><a href="Contact-Us.html">Contact-Us</a></li></ul>
+       </div>
+        <div id="address" >
+           SAMSUNG MOBILE MALL</br>
+           SHIVAJI MARKIT, DELHI<br>
+           Contact:9996754786<br>
+           E-mail:info@samsung.co.in<br>
+		    <img src="../images/f.jpg" height="50px" width="50px"/>
+           <img src="../images/ph.png" height="50px" width="50px"/>
+		   <img src="../images/fc.png" height="50px" width="50px"/>
+    </b>   </div>
+       
+	   <div class="foot">
+	   <img src="../images/map.jpg" height="150px" width="100%"/>
+	  
+	  
+       </div>
+   </div></footer>
+	   
+
+<script>
+function abc()
+{
+if(document.abcd.n1.value=="")
+{
+alert("value must be enter");
+document.abcd.n1.focus();
+return false;
+}
+
+if(document.abcd.c1.value=="")
+{
+alert("value must be enter");
+document.abcd.c1.focus();
+return false;
+}
+
+if(document.abcd.w1.value==" ")
+{
+alert("value must be enter");
+document.abcd.w1.focus();
+return false;
+}
+return true;
+}
+</script>
+
+</body>
+</html>
